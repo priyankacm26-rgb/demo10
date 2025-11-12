@@ -1,6 +1,10 @@
 a = input("enter a number")
 b = input("enter a  number")
-if a % 2 == 0 & b % 2 == 0 :
-    Print("it is an even number")
+if a % 2 == 0 & b % 2 == 0:
+   print("Both Numbers are even ")
+elif a % 2 != 0 & b % 2 !=0:
+   print("Both number are odd ")
+elif a % 2 == 0 and b % 2 != 0:
+    print("First number is even and second number is odd.")
 else:
-    print("its an odd number")
+    print("First number is odd and second number is even.")
